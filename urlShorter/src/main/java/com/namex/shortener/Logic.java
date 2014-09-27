@@ -10,7 +10,7 @@ import redis.clients.jedis.Jedis;
 
 public class Logic {
 	public Jedis getConnection() {
-		Jedis jedis = new Jedis("10.73.45.59");
+		Jedis jedis = new Jedis("10.73.45.68");
 		return jedis;
 	}
 
